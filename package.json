@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+   "build": "lerna run --stream --sort build",
+   "pub": "lerna publish ----include-merged-tags"
+  },
+  "devDependencies": {
+    "lerna": "^5.4.1",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "rollup": "^2.58.0",
+    "rollup-plugin-postcss": "^4.0.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5"
+  }
+}

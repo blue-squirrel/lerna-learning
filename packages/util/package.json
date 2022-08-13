@@ -1,0 +1,23 @@
+{
+  "name": "@xjh-lerna/util",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "blue-squirrel <1440054388@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/util.test.js",
+    "build": "rollup --config ../../rollup.config.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
