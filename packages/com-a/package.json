@@ -1,5 +1,5 @@
 {
-  "name": "@xjh-lerna/com-a",
+  "name": "xjh-test-lerna-com-a",
   "publishConfig": {
     "access": "publish"
   },

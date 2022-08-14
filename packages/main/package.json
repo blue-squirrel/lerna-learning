@@ -1,5 +1,5 @@
 {
-  "name": "@xjh-lerna/main",
+  "name": "xjh-test-lerna-main",
   "publishConfig": {
     "access": "publish"
   },
@@ -21,6 +21,6 @@
     "build": "rollup --config ../../rollup.config.js"
   },
   "dependencies": {
-    "@xjh-lerna/util": "^1.0.1"
+    "xjh-test-lerna-util": "^1.0.1"
   }
 }

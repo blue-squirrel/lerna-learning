@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "publish"
    },
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
