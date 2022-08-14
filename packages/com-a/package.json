@@ -1,5 +1,8 @@
 {
   "name": "@xjh-lerna/com-a",
+  "publishConfig": {
+    "access": "publish"
+   },
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "blue-squirrel <1440054388@qq.com>",
