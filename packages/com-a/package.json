@@ -1,8 +1,5 @@
 {
   "name": "xjh-test-lerna-com-a",
-  "publishConfig": {
-    "access": "publish"
-  },
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "blue-squirrel <1440054388@qq.com>",
@@ -22,5 +19,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "gitHead": "a3caeadff60e2738456ca508f83462586020db9f"
 }
