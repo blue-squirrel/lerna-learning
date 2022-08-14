@@ -2,8 +2,8 @@
   "name": "@xjh-lerna/util",
   "publishConfig": {
     "access": "publish"
-   },
-  "version": "1.0.0",
+  },
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "blue-squirrel <1440054388@qq.com>",
   "homepage": "",
