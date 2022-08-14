@@ -2,11 +2,10 @@
 
 module.exports = main;
 
-var util = require('xjh-test-lerna-util/lib');
+var util = require('xjh-test-lerna-util');
+var comA = require('xjh-test-lerna-com-a');
 
-function main() {
-    console.log(util('666'));
-    return "Hello from main";
-}
-
-main();
+export default {
+    util,
+    comA
+};

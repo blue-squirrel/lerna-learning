@@ -18,6 +18,7 @@
     "build": "rollup --config ../../rollup.config.js"
   },
   "dependencies": {
+    "xjh-test-lerna-com-a": "^1.0.3",
     "xjh-test-lerna-util": "^1.0.3"
   },
   "gitHead": "a3caeadff60e2738456ca508f83462586020db9f"
