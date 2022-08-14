@@ -1,4 +1,4 @@
-// mycompotest-mono/rollup.config.js
+// rollup.config.js
 import postcss from 'rollup-plugin-postcss';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
@@ -10,7 +10,7 @@ export default {
     input: 'lib',
     output: {
       file: 'dist/index.js',
-      format: 'umd',
+      format: 'es',
       name: 'index'
       // name: pkJson._globalName
     },
