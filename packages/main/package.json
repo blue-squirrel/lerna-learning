@@ -1,6 +1,6 @@
 {
   "name": "xjh-test-lerna-main",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "blue-squirrel <1440054388@qq.com>",
   "homepage": "",
@@ -18,7 +18,7 @@
     "build": "rollup --config ../../rollup.config.js"
   },
   "dependencies": {
-    "xjh-test-lerna-util": "^1.0.2"
+    "xjh-test-lerna-util": "^1.0.3"
   },
   "gitHead": "a3caeadff60e2738456ca508f83462586020db9f"
 }
